@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Urbanist&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightpink;
+}
+
+
+#principal{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size:100px;
+    text-align: center;
+}
+
+.menu{
+    font-family:'Fredoka One', cursive;
+    color:#688661;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.menugeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#divBordado{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+    font-family:'Fredoka One', cursive;
+    text-align: center;
+    overflow: hidden;
+    color: rgba(255,255,255,.75);
+}
+
+footer {
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%)
+}
+
+.container{
+    width: auto;
+    max-width: 1200px;
+    height: auto;
+    display: table-cell;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container .card{
+    width: 330px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 330px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
